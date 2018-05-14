@@ -9,29 +9,34 @@
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-
     <div class="container">
         <header>
             <h1>Matching Game</h1>
         </header>
-
         <section class="score-panel">
-        	<ul class="stars">
-        		<li><i class="fa fa-star"></i></li>
-        		<li><i class="fa fa-star"></i></li>
-        		<li><i class="fa fa-star"></i></li>
-        	</ul>
-
-        	<span class="moves">3</span> Moves
-
+            <ul class="stars">
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+            </ul>
+            <span class="moves">X</span> Moves
             <div class="restart">
-        		<i class="fa fa-repeat"></i>
-        	</div>
+                <i class="fa fa-repeat"></i>
+            </div>
         </section>
-
-        <ul class="deck">
-        </ul>
+        <ul class="deck"></ul>
     </div>
+    <div id="winner" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Congratulations! You solved it!</h2>
+            <p>With x moves and Y stars in Z seconds.</p>
+            <button id="btnPlayAgain"><h3>Play Again</h3></button>
+        </div>
+    </div>
+    <!-- Start test-->
+    <button id="test">Modal winner</button>
+    <!-- End test-->
     <script src="js/app.js"></script>
 </body>
 </html>
