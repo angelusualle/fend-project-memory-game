@@ -26,7 +26,7 @@ document.querySelector('.deck').addEventListener('click', (clickCardEvent) => {
         }
         else {
             ++moves;
-            if (moves % 8 == 0 && stars > 0) {
+            if (moves % 8 == 0 && stars > 1) {
                 --stars;
                 const star = document.querySelector('.fa-star');
                 star.classList.remove('fa-star');

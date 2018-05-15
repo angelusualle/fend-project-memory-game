@@ -8,6 +8,10 @@ It is a single page application created as a game for matching cards based on me
 
 The object of the game is to match all cards as fast as possible.
 
+## Dependencies
+
+Chrome Browser to open up Index.html.
+
 ## Contributing
 
 No contributing necessary.
