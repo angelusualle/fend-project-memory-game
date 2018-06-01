@@ -10,7 +10,7 @@ The object of the game is to match all cards as fast as possible.
 
 ## How to Play
 Click this link:
-["Angelusualle's Memory Game"](https://htmlpreview.github.io/?https://github.com/angelusualle/fend-project-memory-game/blob/master/index.html)
+[Angelusualle's Memory Game](https://htmlpreview.github.io/?https://github.com/angelusualle/fend-project-memory-game/blob/master/index.html)
 
 ## Dependencies
 
