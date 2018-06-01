@@ -8,6 +8,9 @@ It is a single page application created as a game for matching cards based on me
 
 The object of the game is to match all cards as fast as possible.
 
+## How to Play
+Click this link:(https://htmlpreview.github.io/?https://github.com/angelusualle/fend-project-memory-game/blob/master/index.html "Angelusualle's Memory Game")
+
 ## Dependencies
 
 Chrome Browser to open up Index.html.
